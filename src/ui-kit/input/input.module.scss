@@ -1,0 +1,19 @@
+@import '../config/variables.scss';
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 1px solid var(dark_grey);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    line-height: 1rem;
+
+    &:active,
+    &:focus {
+        outline-color: var(primary_color);
+    }
+}

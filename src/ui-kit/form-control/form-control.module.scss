@@ -1,0 +1,11 @@
+@import '../config/variables.scss';
+
+.formConrol {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem 0;
+}
+
+.requiredIndicator {
+    color: var(danger_color)
+}

@@ -1,0 +1,21 @@
+
+
+
+
+@function var($name) {
+    $primary_color: #007AFF;
+    $dark_grey: #3a3a3c;
+    $danger_color: #FF2D55;
+
+    @if $name == primary_color {
+        @return $primary_color;
+    }
+
+    @if $name == dark_grey {
+        @return $dark_grey;
+    }
+
+    @if $name == danger_color {
+        @return $danger_color;
+    }
+}
